@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+body {
+  margin: 0;
+}
+
+#section1 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("./section1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 82px;
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 8px;
+}
+
+#section2 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("./section2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 82px;
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 8px;
+}
+
+#section3 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("./section3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#section3-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#section3-img-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+#section3-text-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+#section3-text {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 78px;
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 8px;
+}
+
+#section4 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("./section4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 82px;
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 8px;
+}
+
+#section5 {
+  background-color: rgba(250, 250, 250, 1);
+}
+
+#section5-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#section5-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section5-text {
+  display: inline;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 42px;
+  text-align: center;
+  color: #121212;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  border-bottom-color: #868e96;
+  border-bottom-style: solid;
+  border-bottom-width: 1.5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.world-slide-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 70px;
+}
+
+.world-slide-img-container {
+  display: flex;
+  flex: 1.3;
+  justify-content: center;
+  align-items: center;
+}
+
+.world-slide-text-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  padding-right: 125px;
+}
+
+.world-slide-head {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 44px;
+  color: #121212;
+  padding-bottom: 25px;
+}
+
+.world-slide-body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 22px;
+  color: #495057;
+}
+
+.slide-image {
+  border-radius: 32px;
+}
